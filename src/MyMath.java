@@ -39,7 +39,6 @@ public class MyMath {
 
     public static int factorial(int n)
     {
-
         int result = 1;
         int num = 0;
         for(int i=0;i < n; i++) {
@@ -47,6 +46,12 @@ public class MyMath {
             result *= num;
         }
         return result;
+    }
+
+    public static int primeNum(int n)
+    {
+
+     return n;
     }
 
 

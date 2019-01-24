@@ -34,7 +34,7 @@ public class testMyMath {
         System.out.println(result3);//Expect 6
 
         result3 = MyMath.sumNumbers(4);
-        System.out.println(result3);//Expect 10*/
+        System.out.println(result3);//Expect 10
 
       int result4 = MyMath.factorial(3);
       System.out.println(result4);//Expect 6
@@ -43,7 +43,10 @@ public class testMyMath {
         System.out.println(result4);//Expect 720
 
         result4 = MyMath.factorial(17);
-        System.out.println(result4);//Expect 3628800
+        System.out.println(result4);//Expect 3628800*/
+
+      int result5 = MyMath.primeNum(7);
+      System.out.println(result5);
 
     }
 }
