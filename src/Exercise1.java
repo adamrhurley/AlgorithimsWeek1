@@ -1,2 +1,2 @@
-public class Exercise1 {a
+public class Exercise1 {
 }
