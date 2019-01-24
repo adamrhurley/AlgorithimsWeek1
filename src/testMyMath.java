@@ -22,7 +22,7 @@ public class testMyMath {
         System.out.println(result2); //0^5 Expect 0
 
         result2 = MyMath.findPower(3, 0);
-        System.out.println(result2); //3^0 Expect 1*/
+        System.out.println(result2); //3^0 Expect 1
 
       int result3 = MyMath.sumNumbers(1);
       System.out.println(result3);//Expect 1
@@ -34,7 +34,16 @@ public class testMyMath {
         System.out.println(result3);//Expect 6
 
         result3 = MyMath.sumNumbers(4);
-        System.out.println(result3);//Expect 10
+        System.out.println(result3);//Expect 10*/
+
+      int result4 = MyMath.factorial(3);
+      System.out.println(result4);//Expect 6
+
+        result4 = MyMath.factorial(6);
+        System.out.println(result4);//Expect 720
+
+        result4 = MyMath.factorial(17);
+        System.out.println(result4);//Expect 3628800
 
     }
 }

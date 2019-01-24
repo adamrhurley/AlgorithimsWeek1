@@ -37,5 +37,17 @@ public class MyMath {
         return result;
     }
 
+    public static int factorial(int n)
+    {
+
+        int result = 1;
+        int num = 0;
+        for(int i=0;i < n; i++) {
+            num++;
+            result *= num;
+        }
+        return result;
+    }
+
 
 }
